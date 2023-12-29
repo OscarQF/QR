@@ -161,29 +161,25 @@ p {
  visibility: hidden;
 }
 
-@keyframes blink {
- 0% {
-  color: white;
- }
-
- 20% {
-  color: yellow;
- }
-
- 40% {
-  color: greenyellow;
- }
-
- 60% {
-  color: red;
- }
-
- 80% {
-  color: hotpink;
- }
-
- 100% {
-  color: blue;
- }
-}
-
+@media only screen and (max-width: 600px) {
+    .foto {
+      margin-top: 0;
+    }
+  
+    .foto img {
+      margin: 2px 0;
+      width: 100%;
+      height: auto;
+    }
+  
+    .birthdayCard,
+    .cardFront,
+    .cardInside {
+      width: 100%;
+      height: auto;
+    }
+  
+    .balloons {
+      display: none; /* Hide balloons on smaller screens */
+    }
+  }
