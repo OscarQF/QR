@@ -79,14 +79,8 @@ h2 {
   background-color: transparent;
 }
 
-.heart:nth-child(1):before {
-  content: "\2665"; /*CódigoUnicodeparaelsímbolodecorazón*/
-  font-size: 120px; /*Tamañodelprimercorazón*/
-  color: #1ebc13; /*Colordelcorazón*/
-  left: 100px;
-  top: 50px;
 
-}
+
 
 .heart:nth-child(2):before {
   content: "\2665"; /* Código Unicode para el símbolo de corazón */
@@ -99,7 +93,7 @@ h2 {
 .heart:nth-child(3):before {
   content: "\2665"; /* Código Unicode para el símbolo de corazón */
   font-size: 320px; /* Tamaño del tercer corazón */
-  color: #1730ae; /* Color del corazón */
+  color: #9c13f2; /* Color del corazón */
   left: -60px;
   top: -60px;
 }
@@ -168,16 +162,15 @@ p {
   
     .foto img {
       margin: 2px 0;
-      /* width: 100%;
-      height: auto; */
+     width: 100%;
+      height: auto; 
     }
   
     .birthdayCard,
     .cardFront,
     .cardInside {
       width: 100%;
-      max-width: none;
-      /* height: auto; */
+    height: auto; 
 
     }
   
