@@ -155,4 +155,18 @@ p {
  visibility: hidden;
 }
 
+@media (max-width: 480px) {
+    .body {
+      flex-direction: column; /* Cambia la dirección del flexbox a columna */
+    }
+  
+    .foto img {
+      margin: 2px auto;
+    }
+  
+    .birthdayCard {
+      margin: 10px; /* Ajusta el margen general */
+    }
+  }
+
 
