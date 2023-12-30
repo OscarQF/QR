@@ -81,16 +81,14 @@ h2 {
 
 
 
-
-.heart:nth-child(2):before {
+.heart:nth-child(1):before {
   content: "\2665"; /* Código Unicode para el símbolo de corazón */
-  font-size: 520px; /* Tamaño del segundo corazón */
-  color: #ffd166; /* Color del corazón */
-  left: -50px;
-  top: -50px;
+  font-size: 200px; /* Tamaño del cuarto corazón */
+  color: #e9052f; /* Color del corazón */
+  left: -70px;
+  top: -70px;
 }
-
-.heart:nth-child(3):before {
+.heart:nth-child(2):before {
   content: "\2665"; /* Código Unicode para el símbolo de corazón */
   font-size: 320px; /* Tamaño del tercer corazón */
   color: #9c13f2; /* Color del corazón */
@@ -98,13 +96,15 @@ h2 {
   top: -60px;
 }
 
-.heart:nth-child(4):before {
+.heart:nth-child(3):before {
   content: "\2665"; /* Código Unicode para el símbolo de corazón */
-  font-size: 200px; /* Tamaño del cuarto corazón */
-  color: #df062e; /* Color del corazón */
-  left: -70px;
-  top: -70px;
+  font-size: 520px; /* Tamaño del segundo corazón */
+  color: #ffd166; /* Color del corazón */
+  left: -50px;
+  top: -50px;
 }
+
+
 
 .cardInside {
  position: absolute;
@@ -123,14 +123,14 @@ p {
  color: #f40d15;
 }
 
-.name {
+/* .name {
  position: absolute;
  left: 142px;
  top: 290px; 
  color: #9c13f2;
  text-decoration: underline;
  z-index: 2;
-}
+} */
 
 .back {
  font-family: Tahoma, sans-serif;
