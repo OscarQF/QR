@@ -17,12 +17,12 @@ body {
   margin-top: -100px;
   z-index: 1;
 }
-.foto img {
+ .foto img {
   margin: 2px 128px -176px;
   width: 111px;
   height: 155px;
   opacity: 0.8;
-}
+} 
 
 h2 {
   animation: 1s blink linear infinite;
@@ -168,15 +168,17 @@ p {
   
     .foto img {
       margin: 2px 0;
-      width: 100%;
-      height: auto;
+      /* width: 100%;
+      height: auto; */
     }
   
     .birthdayCard,
     .cardFront,
     .cardInside {
       width: 100%;
-      height: auto;
+      max-width: none;
+      /* height: auto; */
+
     }
   
     .balloons {
