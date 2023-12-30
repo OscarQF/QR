@@ -1,6 +1,6 @@
 
 body {
-    background:  #acee31;
+    background:  #e20909;
     margin: 0;
   }
   
@@ -13,6 +13,7 @@ body {
 
         }
 .foto{
+    position: relative;
   margin-top: -100px;
   z-index: 1;
 }
@@ -63,15 +64,15 @@ h2 {
  transition: .1s;
 }
 .balloons {
-  position: absolute;
-  top:50;
-  left:50;
-  transform: translate(-50, -50);
-  -webkit-transform: translate(-50, -50);
-  -moz-transform: translate(-50, -50);
-  -ms-transform: translate(-50, -50);
-  -o-transform: translate(-50, -50);
-}
+    position: absolute;
+    top: 50;
+    left: 50;
+    transform: translate(-50, -50); 
+    -webkit-transform: translate(-50, -50);
+    -moz-transform: translate(-50, -50);
+    -ms-transform: translate(-50, -50);
+    -o-transform: translate(-50, -50);
+  }
 
 .heart {
   position: absolute;
@@ -79,10 +80,9 @@ h2 {
 }
 
 .heart:nth-child(1):before {
-  content: "\2665";
-  /*CódigoUnicodeparaelsímbolodecorazón*/font-size: 120px;
-  /*Tamañodelprimercorazón*/color: #1ebc13;
-  /*Colordelcorazón*/
+  content: "\2665"; /*CódigoUnicodeparaelsímbolodecorazón*/
+  font-size: 120px; /*Tamañodelprimercorazón*/
+  color: #1ebc13; /*Colordelcorazón*/
   left: 100px;
   top: 50px;
 
