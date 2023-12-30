@@ -155,26 +155,4 @@ p {
  visibility: hidden;
 }
 
-@media only screen and (max-width: 600px) {
-    .foto {
-      margin-top: 0;
-    }
-  
-    .foto img {
-      margin: 2px 0;
-     width: 100%;
-      height: auto; 
-    }
-  
-    .birthdayCard,
-    .cardFront,
-    .cardInside {
-      width: 100%;
-    height: auto; 
 
-    }
-  
-    .balloons {
-      display: none; /* Hide balloons on smaller screens */
-    }
-  }
